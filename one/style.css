@@ -58,6 +58,7 @@ body {
     max-width: 1000px;
     height: 2999.300px;
     margin: auto;
+    overflow: hidden;
 }
 .one {
     position: relative;
