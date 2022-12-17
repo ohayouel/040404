@@ -48,12 +48,15 @@ table {
 }
 
 /* CSS */
-img {
-	pointer-events: none;
-}
+
 @font-face {
 	font-family: "vcr";
 	src: url('two/three/vcr.ttf') format('truetype');
+}
+body {
+    margin: auto;
+    width: 1000px;
+    height: 2999.300px;
 }
 .one {
     position: relative;
@@ -67,16 +70,17 @@ img {
 
 .se-pre-con {
 	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
+    width: inherit;
+    max-width: inherit;
 	height: 100%;
 	z-index: 9999;
-	background: url(two/load.gif) center no-repeat #fff;
+	background: url(two/load.gif) center no-repeat #ffffff;
 	background-size: 350px;
 	-webkit-animation-name: loading;
 	-webkit-animation-duration: 5s;
 	visibility: hidden;
+    margin: auto;
+    align-items: center;
 }
 @-webkit-keyframes loading {
 	0% {
@@ -90,7 +94,9 @@ img {
 	}
 }
 .load {
-	width: 100%;
+	position: fixed;
+    width: inherit;
+    max-width: inherit;
 	height: 100%;
 	-webkit-animation-name: loading;
 	-webkit-animation-duration: 5s;
@@ -116,12 +122,15 @@ img {
 
 .header{
 	position: fixed;
+    width: inherit;
+    max-width: inherit;
 	z-index: 99;
-	margin: auto;
-	width: 1000px;
 	height: 88px;
 	border-bottom: 3px solid #1d1917ff;
 	background-color: rgb(236, 236, 236);
+    align-items: center;
+    transform: none;
+    margin-top: 0;
 }
 .home, .about, .members, .album {
 	background-image: linear-gradient(#f2f2f2ff, #9df09dff);
