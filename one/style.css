@@ -56,7 +56,7 @@ table {
 body {
     margin: auto;
     width: 1000px;
-    max-width: inherit;
+    max-width: 1000px;
     height: 2999.300px;
 }
 .one {
