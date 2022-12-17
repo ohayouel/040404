@@ -54,10 +54,10 @@ table {
 	src: url('two/three/vcr.ttf') format('truetype');
 }
 body {
-    margin: auto;
-    width: 1000px;
+    width: 100%;
     max-width: 1000px;
     height: 2999.300px;
+    margin: auto;
 }
 .one {
     position: relative;
