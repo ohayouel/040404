@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="one/style.css">
     <link rel="shortcut icon" href="one/two/icon.png" type="image/x-icon"/>
     <link rel="preload" as="font" format="truetype" href="one/two/three/vcr.ttf">
@@ -31,20 +31,20 @@
 </head>
 <body onContextMenu="return false;">
     <div class="se-pre-con"><p class="load">Loading</p></div>
-    <div class="header">
-        <a href="#home"><div class="home">
-            <p class="phead phome">Home</p>
-        </div></a>
-        <a href="#about"><div class="about">
-            <p class="phead pabout">About</p>
-        </div></a>
-        <a href="#members"><div class="members">
-            <p class="phead pmembers">Members</p>
-        </div></a>
-        <a href="#album"><div class="album">
-            <p class="phead palbum">Album</p>
-        </div></a>
-    </div>
+        <div class="header">
+            <a href="#home"><div class="home">
+                <p class="phead phome">Home</p>
+            </div></a>
+            <a href="#about"><div class="about">
+                <p class="phead pabout">About</p>
+            </div></a>
+            <a href="#members"><div class="members">
+                <p class="phead pmembers">Members</p>
+            </div></a>
+            <a href="#album"><div class="album">
+                <p class="phead palbum">Album</p>
+            </div></a>
+        </div>
     <div class="one">
         <img src="one/two/bg.png" alt="NewJeans" class="bg">
         <div class="welcome" id="home">
@@ -140,8 +140,16 @@
         <p class="textkaki">
             Made with love by <a class="textkakia" href="https://t.me/ohayouel/" target="_blank">@ohayouel</a> 
         </p>
+        <p class="credit">and this beautiful "Glass Line" GIF is created by <a class="credits" href="https://icons8.com/" target="_blank">icons8</a></p>
     </div>
     <script>
+        if (history.scrollRestoration) {
+            history.scrollRestoration = 'manual';
+        } else {
+            window.onbeforeunload = function () {
+                window.scrollTo(0, 0);
+            }
+        }
 var counter = 1;
       
       var hanni = document.querySelector(".hanni");
