@@ -1027,7 +1027,7 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
 
 @media (min-width: 0px) and (max-width: 1000px) {
     body {
-        transform: scale(0.6, 0.6);
+        transform: scale(0.8, 0.8);
     }
 }
 /* CODE COLOR
