@@ -1025,32 +1025,11 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
     display: inline-block;
 }
 
-/* @media (min-width: 0px) and (max-width: 1000px) {
-    .se-pre-con {
-        background-size: 300px;
+@media (min-width: 0px) and (max-width: 1000px) {
+    body {
+        transform: scale(0.6, 0.6);
     }
-    .load {
-        font-size: 30px;
-        padding-top: 30vh;
-    }
-    .se-pre-con {
-        width: 100%;
-        margin: 0;
-        left: 0;
-        right: 0;
-    }
-    .loading {
-        width: 100%;
-        text-align: center;
-    }
-    .header {
-        position: sticky;
-        margin: 0;
-        padding-top: 1px;
-        left: 0;
-        right: 0;
-    }
-} */
+}
 /* CODE COLOR
 font: 1d1917ff
 brown font: 262221ff
