@@ -85,7 +85,7 @@ body {
 	height: 100%;
 	z-index: 9999;
 	background: url(two/load.gif) center no-repeat #ffffff;
-	background-size: 30vw;
+	background-size: 200px;
 	-webkit-animation-name: loading;
 	-webkit-animation-duration: 10s;
     -webkit-animation-timing-function: ease;
@@ -111,8 +111,7 @@ body {
 	font-size: 4vw;
 	color: #1d1917ff;
     text-align: center;
-    margin-top: auto;
-    padding-top: 40vh;
+    margin-top: 40vh;
     width: inherit;
 	height: 500px;
 	-webkit-animation-name: loading;
@@ -1029,6 +1028,15 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
+
+/* @media (min-width: 0px) and (max-width: 1000px) {
+    body {
+        transform: scale(1.0, 1.0);
+    }
+}
+body {
+    transform: scale(1.0, 1.0);
+} */
 /* CODE COLOR
 font: 1d1917ff
 brown font: 262221ff
