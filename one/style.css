@@ -1031,11 +1031,11 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
 
 @media (min-width: 0px) and (max-width: 1000px) {
     .loading {
-        margin-top: 100vh;
-        font-size: 100px;
+        margin-top: 300vh;
+        font-size: 500px;
     }
     .se-pre-con {
-        background-size: 200px;
+        background-size: 600px;
     }
     /* .load {
         font-family: vcr;
