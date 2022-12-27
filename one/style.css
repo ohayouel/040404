@@ -111,7 +111,7 @@ body {
 	font-size: 100px;
 	color: #1d1917ff;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 20%;
     width: 100%;
 	height: 60%;
 	-webkit-animation-name: loading;
@@ -1031,7 +1031,7 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
 
 @media (min-width: 0px) and (max-width: 1000px) {
     .loading {
-        margin-top: 300vh;
+        margin-top: 60%;
         font-size: 90%;
     }
     .se-pre-con {
