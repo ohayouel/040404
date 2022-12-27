@@ -58,9 +58,14 @@ html {
 }
 body {
     margin: auto;
+    width: 100%;
+    height: 100%;
+    /* background: url(two/bg.png) center no-repeat; */
+}
+.dua {
+    margin: auto;
     width: 1000px;
-    max-width: 1000px;
-    height: 2999.300px;
+    height: 3000px;
     /* background: url(two/bg.png) center no-repeat; */
 }
 .one {
@@ -69,6 +74,7 @@ body {
     margin: auto;
     width: 100%;
     height: 100%;
+    align-items: center;
 }
 
 /* LOADING */
@@ -108,7 +114,7 @@ body {
     margin-top: auto;
     padding-top: 40vh;
     width: inherit;
-	height: inherit;
+	height: 500px;
 	-webkit-animation-name: loading;
 	-webkit-animation-duration: 10s;
     -webkit-animation-timing-function: ease;
@@ -122,7 +128,6 @@ body {
     z-index: 2;
 	margin: auto;
 	width: 1000px;
-    height: 2999.300px;
 }
 
 /* HEADER */
@@ -1023,12 +1028,6 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-}
-
-@media (min-width: 0px) and (max-width: 1000px) {
-    body {
-        transform: scale(1.0, 1.0);
-    }
 }
 /* CODE COLOR
 font: 1d1917ff
