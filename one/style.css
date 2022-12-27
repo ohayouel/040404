@@ -108,10 +108,10 @@ body {
 }
 .load {
 	font-family: vcr;
-	font-size: 90%;
+	font-size: 150%;
 	color: #1d1917ff;
     text-align: center;
-    margin-top: 40vh;
+    margin-top: 35%;
     width: inherit;
 	height: 500px;
 	-webkit-animation-name: loading;
