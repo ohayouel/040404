@@ -108,7 +108,7 @@ body {
 }
 .load {
 	font-family: vcr;
-	font-size: 40%;
+	font-size: 90%;
 	color: #1d1917ff;
     text-align: center;
     margin-top: 40vh;
@@ -1032,7 +1032,7 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
 @media (min-width: 0px) and (max-width: 1000px) {
     .loading {
         margin-top: 300vh;
-        font-size: 40%;
+        font-size: 90%;
     }
     .se-pre-con {
         background-size: 50%;
