@@ -1029,14 +1029,28 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
     display: inline-block;
 }
 
-/* @media (min-width: 0px) and (max-width: 1000px) {
-    body {
-        transform: scale(1.0, 1.0);
+@media (min-width: 0px) and (max-width: 1000px) {
+    .loading {
+        margin-top: 100vh;
+        font-size: 100px;
     }
+    .se-pre-con {
+        background-size: 200px;
+    }
+    /* .load {
+        font-family: vcr;
+        font-size: 4vw;
+        color: #1d1917ff;
+        text-align: center;
+        margin-top: 40vh;
+        width: inherit;
+        height: 500px;
+        -webkit-animation-name: loading;
+        -webkit-animation-duration: 10s;
+        -webkit-animation-timing-function: ease;
+        visibility: hidden;
+    } */
 }
-body {
-    transform: scale(1.0, 1.0);
-} */
 /* CODE COLOR
 font: 1d1917ff
 brown font: 262221ff
