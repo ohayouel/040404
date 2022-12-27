@@ -118,6 +118,7 @@ body {
 	-webkit-animation-duration: 10s;
     -webkit-animation-timing-function: ease;
 	visibility: hidden;
+    display: inline-block;
 }
 
 
@@ -1030,9 +1031,9 @@ TAB top: 10 left: 7, name-TAB top: -107 left: 891, */
 }
 
 @media only screen and (max-width: 1000px) {
-    .loading {
-        margin-top: 500px;
-        font-size: 90%;
+    .load {
+        margin-top: 100%;
+        font-size: 400%;
     }
     .se-pre-con {
         background-size: 50%;
